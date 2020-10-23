@@ -5,7 +5,6 @@
   "private": true,
   "dependencies": {
     "express": "^4.17.1",
-    "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "path": "^0.12.7",
     "react": "^16.13.1",
@@ -16,15 +15,20 @@
   "engines": {
     "node": "12.18.1",
     "npm": "6.14.8"
-},
-"scripts": {
-  "dev": "react-scripts start",
-  "start": "serve -s build",
-  "build": "react-scripts build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject",
-  "heroku-postbuild": "npm run build"
   },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+
+  "homepage": "http://Lihuor.github.io/Portfolio-Lihuor",
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -40,5 +44,8 @@
   "description": "## 👇 WATCH THIS FIRST 👇 ## https://tinyurl.com/customizeReactPortfolio",
   "main": "index.js",
   "author": "Lihuor",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
