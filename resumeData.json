@@ -2,7 +2,7 @@
   "main": {
     "name": "Lihuor Slot",
     "occupation": "Full-stack web developer",
-    "description": "Warehouse manager by the day, & Freelancer by the night",
+    "description": "Experienced Warehouse Manager with exceptional stock management skills looking for a Full Stack Web Developer where I can employ my knowledge of web development including HTML, CSS, JavaScript and MERN Stack",
     "image": "profilePic.JPG",
     "bio": "My name is Lihuor, I'm a Full-stack web developer. Currently I'm building apps using javascript and React",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
@@ -15,7 +15,7 @@
       "country": "Australia"
     },
     "website": "",
-    "resumedownload": "https://drive.google.com/file/d/1YylEVgdh-nHC85s6mupoCRsG3hUiAK3C/view?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1VJDfsYTt-cigFNna-q05L-gXnTYIRAt9WoqyYhQlWOw/edit",
     "social": [
       {
         "name": "linkedin",
@@ -112,6 +112,12 @@
         "category": "Rendering Dashboard using handlebars for the front-end and using MYSQL, NodeJs, Express, Sequelize, Unirest for the back-end",
         "image": "Trading-platform.png",
         "url": "https://fast-lake-54569.herokuapp.com/userSummery"
+      },
+      {
+        "title": "Customer Relationship Management",
+        "category": "Rendering dashboard using MERN stack",
+        "image": "Customer Relationship Management.png",
+        "url": "https://crm-9898.herokuapp.com/"
       }
     ]
   },
