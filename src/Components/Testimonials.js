@@ -1,38 +1,37 @@
 import React, { Component } from 'react';
-
-class Testimonials extends Component {
+export default class Testimonials extends Component {
   render() {
-
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
-        return  <li key={testimonials.user}>
-            <blockquote>
-               <p>{testimonials.text}</p>
-               <cite>{testimonials.user}</cite>
-            </blockquote>
-         </li>
-      })
-    }
-
+    let resumeData = this.props.resumeData;
     return (
       <section id="testimonials">
-      <div className="text-container">
-         <div className="row">
-
+        <div className="text-container">
+          <div className="row">
             <div className="two columns header-col">
-               <h1><span>Client Testimonials</span></h1>
+              <h1><span>Client Testimonials</span></h1>
             </div>
-
             <div className="ten columns flex-container">
-                  <ul className="slides">
-                      {testimonials}
-                  </ul>
-               </div>
-            </div>
-         </div>
-   </section>
-    );
+              <div className="flexslider">
+                <ul className="slides">
+                  {
+                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                      return(
+                        <li>
+                          <blockquote>
+                            <p>
+                            {item.description}
+                            </p>
+                            <cite>{item.name}</cite>
+                          </blockquote>
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
+              </div> {/* div.flexslider ends */}
+            </div> {/* div.flex-container ends */}
+          </div> {/* row ends */}
+        </div>  {/* text-container ends */}
+      </section>
+        );
   }
 }
-
-export default Testimonials;
