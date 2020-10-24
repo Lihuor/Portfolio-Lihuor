@@ -1,22 +1,46 @@
 {
-  "name": "portfolio-v3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "name": "personalportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-scripts": "3.4.3"
+  },
+  "engines": {
+    "node": "12.18.1",
+    "npm": "6.14.8"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lihuor/Portfolio-Lihuor.git"
+  "homepage": "http://Lihuor.github.io/Portfolio-Lihuor",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "author": "",
+  "description": "## 👇 WATCH THIS FIRST 👇 ## https://tinyurl.com/customizeReactPortfolio",
+  "main": "index.js",
+  "author": "Lihuor",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lihuor/Portfolio-Lihuor/issues"
-  },
-  "homepage": "https://github.com/Lihuor/Portfolio-Lihuor#readme"
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
