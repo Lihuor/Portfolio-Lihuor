@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "name": "resume",
+=======
+  "homepage": "https://lihuor.github.io/Portfolio-Lihuor./",
+  "name": "personalportfolio",
+>>>>>>> parent of cc3f62d... deleted homepage duplicate
   "version": "0.1.0",
   "private": true,
   "dependencies": {
