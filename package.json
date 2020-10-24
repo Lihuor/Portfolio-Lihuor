@@ -1,48 +1,25 @@
 {
-  "name": "personalportfolio",
+  "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.17.1",
-    "jquery": "^3.5.1",
-    "path": "^0.12.7",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-ga": "^3.1.2",
-    "react-scripts": "3.4.3"
-  },
-  "engines": {
-    "node": "12.18.1",
-    "npm": "6.14.8"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -b master -d build",
-   "build": "react-scripts build",
-   "test": "react-scripts test --env=jsdom",
-   "eject": "react-scripts eject"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-
-  "homepage": "http://Lihuor.github.io/Portfolio-Lihuor",
-
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "description": "## 👇 WATCH THIS FIRST 👇 ## https://tinyurl.com/customizeReactPortfolio",
-  "main": "index.js",
-  "author": "Lihuor",
-  "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
