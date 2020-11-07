@@ -104,19 +104,19 @@
       {
         "title": "Coronavirus (COVID-19) Web Dashboard",
         "category": "Web Dashboard using jQuery to retrieve data from APIs",
-        "image": "Covid-19.png",
+        "image": "covid-19.png",
         "url": "https://lihuor.github.io/covid-dashboard/"
       },
       {
         "title": "Trading Platform",
         "category": "Rendering Dashboard using handlebars for the front-end and using MYSQL, NodeJs, Express, Sequelize, Unirest for the back-end",
-        "image": "Trading-platform.png",
+        "image": "trading-platform.png",
         "url": "https://fast-lake-54569.herokuapp.com/userSummery"
       },
       {
         "title": "Customer Relationship Management",
         "category": "Rendering dashboard using MERN stack",
-        "image": "Customer Relationship Management.png",
+        "image": "crm.png",
         "url": "https://crm-9898.herokuapp.com/"
       }
     ]
